@@ -9,4 +9,9 @@ completion = client.chat.completions.create(
         {"role": "user", "content": "“Create a python program that checks if a number is prime. Do not write any explanations, just show me the code itself"}
     ]
 )
-print(completion.choices[0].message.content)
+output_code=completion.choices[0].message.content
+
+with open("generatedcode.py", "w") as file:
+    file.write(output_code)
+    
+print(output_code)
