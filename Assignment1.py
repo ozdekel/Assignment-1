@@ -7,7 +7,11 @@ client = OpenAI(api_key=api_key)
 completion = client.chat.completions.create(
     model = "gpt-4o-mini",
     messages=[
-        {"role": "user", "content": "“Write a Python program that checks if a number is prime. The input should be read as a command-line argument using sys.argv. Only return the raw Python code, without any explanations or formatting syntax"}
+        {"role": "user", "content": "“Write a Python program that checks if a number is prime."
+         "The input should be read as a command-line argument using sys.argv. "
+         "Additionaly include unit tests that validate the program's logic with at least 10 different test cases, covering important edge cases."
+         "Use assertions to verify the correctness of the program."
+         "Only return the raw Python code, without any explanations or formatting syntax."}
     ]
 )
 # The folowing remove all the chars that will cause syntax error

@@ -12,9 +12,29 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: python script.py <number>")
         sys.exit(1)
-    
-    number = int(sys.argv[1])
+
+    try:
+        number = int(sys.argv[1])
+    except ValueError:
+        print("Please enter a valid integer.")
+        sys.exit(1)
+
     if is_prime(number):
         print(f"{number} is a prime number.")
     else:
         print(f"{number} is not a prime number.")
+
+def test_is_prime():
+    assert is_prime(2) == True
+    assert is_prime(3) == True
+    assert is_prime(4) == False
+    assert is_prime(5) == True
+    assert is_prime(10) == False
+    assert is_prime(11) == True
+    assert is_prime(12) == False
+    assert is_prime(13) == True
+    assert is_prime(1) == False
+    assert is_prime(0) == False
+    assert is_prime(-5) == False
+
+test_is_prime()
