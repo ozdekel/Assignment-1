@@ -1,0 +1,730 @@
+
+--- Lint Attempt 1 ---
+************* Module generated_code
+generated_code.py:63:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:18:0: C0413: Import "import unittest" should be placed at the top of the module (wrong-import-position)
+generated_code.py:20:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:22:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:26:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:30:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:34:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:38:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:42:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:46:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:50:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:54:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:58:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 6.74/10 (previous run: 4.29/10, +2.45)
+
+
+--- Lint Attempt 2 ---
+************* Module generated_code
+generated_code.py:63:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:18:0: C0413: Import "import unittest" should be placed at the top of the module (wrong-import-position)
+generated_code.py:20:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:22:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:26:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:30:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:34:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:38:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:42:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:46:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:50:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:54:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:58:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 6.74/10 (previous run: 6.74/10, +0.00)
+
+
+--- Lint Attempt 3 ---
+************* Module generated_code
+generated_code.py:63:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:18:0: C0413: Import "import unittest" should be placed at the top of the module (wrong-import-position)
+generated_code.py:20:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:22:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:26:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:30:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:34:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:38:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:42:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:46:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:50:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:54:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:58:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 6.74/10 (previous run: 6.74/10, +0.00)
+
+
+--- Lint Attempt 1 ---
+************* Module generated_code
+generated_code.py:38:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:4:0: C0413: Import "import unittest" should be placed at the top of the module (wrong-import-position)
+generated_code.py:6:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:7:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:10:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:13:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:16:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:19:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:22:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:25:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:28:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:31:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:34:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 4.23/10 (previous run: 6.74/10, -2.51)
+
+
+--- Lint Attempt 2 ---
+************* Module generated_code
+generated_code.py:38:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:4:0: C0413: Import "import unittest" should be placed at the top of the module (wrong-import-position)
+generated_code.py:6:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:7:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:10:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:13:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:16:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:19:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:22:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:25:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:28:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:31:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:34:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 4.23/10 (previous run: 4.23/10, +0.00)
+
+
+--- Lint Attempt 3 ---
+************* Module generated_code
+generated_code.py:38:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:4:0: C0413: Import "import unittest" should be placed at the top of the module (wrong-import-position)
+generated_code.py:6:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:7:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:10:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:13:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:16:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:19:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:22:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:25:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:28:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:31:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:34:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 4.23/10 (previous run: 4.23/10, +0.00)
+
+
+--- Lint Attempt 1 ---
+************* Module generated_code
+generated_code.py:36:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:9:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:10:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:16:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:22:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:26:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:31:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.14/10 (previous run: 4.23/10, +2.91)
+
+
+--- Lint Attempt 2 ---
+************* Module generated_code
+generated_code.py:36:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:9:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:10:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:16:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:22:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:26:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:31:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.14/10 (previous run: 7.14/10, +0.00)
+
+
+--- Lint Attempt 3 ---
+************* Module generated_code
+generated_code.py:36:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:9:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:10:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:16:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:22:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:26:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:31:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.14/10 (previous run: 7.14/10, +0.00)
+
+
+--- Lint Attempt 1 ---
+************* Module generated_code
+generated_code.py:12:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:46:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:9:0: C0413: Import "import unittest" should be placed at the top of the module (wrong-import-position)
+generated_code.py:11:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:13:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:16:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:19:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:22:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:26:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:29:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:33:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:36:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:39:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:42:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 4.67/10 (previous run: 7.14/10, -2.48)
+
+
+--- Lint Attempt 2 ---
+************* Module generated_code
+generated_code.py:3:0: C0301: Line too long (106/100) (line-too-long)
+generated_code.py:14:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:49:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:10:0: C0413: Import "import unittest" should be placed at the top of the module (wrong-import-position)
+generated_code.py:13:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:15:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:18:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:21:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:24:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:28:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:31:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:35:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:38:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:41:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:44:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 4.67/10 (previous run: 4.67/10, +0.00)
+
+
+--- Lint Attempt 3 ---
+************* Module generated_code
+generated_code.py:14:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:49:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:10:0: C0413: Import "import unittest" should be placed at the top of the module (wrong-import-position)
+generated_code.py:13:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:15:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:18:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:21:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:24:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:28:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:31:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:35:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:38:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:41:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:44:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 5.00/10 (previous run: 4.67/10, +0.33)
+
+
+--- Lint Attempt 1 ---
+************* Module generated_code
+generated_code.py:17:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:42:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:14:0: C0413: Import "import unittest" should be placed at the top of the module (wrong-import-position)
+generated_code.py:16:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:18:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:21:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:25:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:30:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:34:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:37:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 5.22/10 (previous run: 5.00/10, +0.22)
+
+
+--- Lint Attempt 2 ---
+************* Module generated_code
+generated_code.py:16:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:41:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:13:0: C0413: Import "import unittest" should be placed at the top of the module (wrong-import-position)
+generated_code.py:15:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:17:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:20:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:24:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:29:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:33:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:36:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 5.22/10 (previous run: 5.22/10, +0.00)
+
+
+--- Lint Attempt 3 ---
+************* Module generated_code
+generated_code.py:16:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:41:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:13:0: C0413: Import "import unittest" should be placed at the top of the module (wrong-import-position)
+generated_code.py:15:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:17:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:20:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:24:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:29:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:33:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:36:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 5.22/10 (previous run: 5.22/10, +0.00)
+
+
+--- Lint Attempt 1 ---
+************* Module generated_code
+generated_code.py:31:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:1:0: C0103: Function name "isMatch" doesn't conform to snake_case naming style (invalid-name)
+generated_code.py:19:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:20:11: C0121: Comparison 'isMatch('aa', 'a') == False' should be 'isMatch('aa', 'a') is False' if checking for the singleton value False, or 'not isMatch('aa', 'a')' if testing for falsiness (singleton-comparison)
+generated_code.py:21:11: C0121: Comparison 'isMatch('aa', 'a*') == True' should be 'isMatch('aa', 'a*') is True' if checking for the singleton value True, or 'isMatch('aa', 'a*')' if testing for truthiness (singleton-comparison)
+generated_code.py:22:11: C0121: Comparison 'isMatch('ab', '.*') == True' should be 'isMatch('ab', '.*') is True' if checking for the singleton value True, or 'isMatch('ab', '.*')' if testing for truthiness (singleton-comparison)
+generated_code.py:23:11: C0121: Comparison 'isMatch('aab', 'c*a*b') == True' should be 'isMatch('aab', 'c*a*b') is True' if checking for the singleton value True, or 'isMatch('aab', 'c*a*b')' if testing for truthiness (singleton-comparison)
+generated_code.py:24:11: C0121: Comparison 'isMatch('mississippi', 'mis*is*p*.') == False' should be 'isMatch('mississippi', 'mis*is*p*.') is False' if checking for the singleton value False, or 'not isMatch('mississippi', 'mis*is*p*.')' if testing for falsiness (singleton-comparison)
+generated_code.py:25:11: C0121: Comparison 'isMatch('', '.*') == True' should be 'isMatch('', '.*') is True' if checking for the singleton value True, or 'isMatch('', '.*')' if testing for truthiness (singleton-comparison)
+generated_code.py:26:11: C0121: Comparison 'isMatch('a', 'a*') == True' should be 'isMatch('a', 'a*') is True' if checking for the singleton value True, or 'isMatch('a', 'a*')' if testing for truthiness (singleton-comparison)
+generated_code.py:27:11: C0121: Comparison 'isMatch('ab', '.*c') == False' should be 'isMatch('ab', '.*c') is False' if checking for the singleton value False, or 'not isMatch('ab', '.*c')' if testing for falsiness (singleton-comparison)
+generated_code.py:28:11: C0121: Comparison 'isMatch('abcd', 'd*') == False' should be 'isMatch('abcd', 'd*') is False' if checking for the singleton value False, or 'not isMatch('abcd', 'd*')' if testing for falsiness (singleton-comparison)
+generated_code.py:29:11: C0121: Comparison 'isMatch('aaa', 'a*a') == True' should be 'isMatch('aaa', 'a*a') is True' if checking for the singleton value True, or 'isMatch('aaa', 'a*a')' if testing for truthiness (singleton-comparison)
+
+------------------------------------------------------------------
+Your code has been rated at 4.23/10 (previous run: 5.22/10, -0.99)
+
+
+--- Lint Attempt 2 ---
+************* Module generated_code
+generated_code.py:29:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:1:0: C0103: Function name "isMatch" doesn't conform to snake_case naming style (invalid-name)
+generated_code.py:17:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:18:11: C0121: Comparison 'isMatch('aa', 'a') == False' should be 'isMatch('aa', 'a') is False' if checking for the singleton value False, or 'not isMatch('aa', 'a')' if testing for falsiness (singleton-comparison)
+generated_code.py:19:11: C0121: Comparison 'isMatch('aa', 'a*') == True' should be 'isMatch('aa', 'a*') is True' if checking for the singleton value True, or 'isMatch('aa', 'a*')' if testing for truthiness (singleton-comparison)
+generated_code.py:20:11: C0121: Comparison 'isMatch('ab', '.*') == True' should be 'isMatch('ab', '.*') is True' if checking for the singleton value True, or 'isMatch('ab', '.*')' if testing for truthiness (singleton-comparison)
+generated_code.py:21:11: C0121: Comparison 'isMatch('aab', 'c*a*b') == True' should be 'isMatch('aab', 'c*a*b') is True' if checking for the singleton value True, or 'isMatch('aab', 'c*a*b')' if testing for truthiness (singleton-comparison)
+generated_code.py:22:11: C0121: Comparison 'isMatch('mississippi', 'mis*is*p*.') == False' should be 'isMatch('mississippi', 'mis*is*p*.') is False' if checking for the singleton value False, or 'not isMatch('mississippi', 'mis*is*p*.')' if testing for falsiness (singleton-comparison)
+generated_code.py:23:11: C0121: Comparison 'isMatch('', '.*') == True' should be 'isMatch('', '.*') is True' if checking for the singleton value True, or 'isMatch('', '.*')' if testing for truthiness (singleton-comparison)
+generated_code.py:24:11: C0121: Comparison 'isMatch('a', 'a*') == True' should be 'isMatch('a', 'a*') is True' if checking for the singleton value True, or 'isMatch('a', 'a*')' if testing for truthiness (singleton-comparison)
+generated_code.py:25:11: C0121: Comparison 'isMatch('ab', '.*c') == False' should be 'isMatch('ab', '.*c') is False' if checking for the singleton value False, or 'not isMatch('ab', '.*c')' if testing for falsiness (singleton-comparison)
+generated_code.py:26:11: C0121: Comparison 'isMatch('abcd', 'd*') == False' should be 'isMatch('abcd', 'd*') is False' if checking for the singleton value False, or 'not isMatch('abcd', 'd*')' if testing for falsiness (singleton-comparison)
+generated_code.py:27:11: C0121: Comparison 'isMatch('aaa', 'a*a') == True' should be 'isMatch('aaa', 'a*a') is True' if checking for the singleton value True, or 'isMatch('aaa', 'a*a')' if testing for truthiness (singleton-comparison)
+
+------------------------------------------------------------------
+Your code has been rated at 4.23/10 (previous run: 4.23/10, +0.00)
+
+
+--- Lint Attempt 3 ---
+************* Module generated_code
+generated_code.py:29:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:1:0: C0103: Function name "isMatch" doesn't conform to snake_case naming style (invalid-name)
+generated_code.py:17:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 8.08/10 (previous run: 4.23/10, +3.85)
+
+
+--- Lint Attempt 1 ---
+************* Module generated_code
+generated_code.py:44:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:8:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:10:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:13:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:16:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:20:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:25:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:28:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:31:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:34:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:37:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:40:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 5.48/10 (previous run: 8.08/10, -2.59)
+
+
+--- Lint Attempt 2 ---
+************* Module generated_code
+generated_code.py:64:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 9.35/10 (previous run: 5.48/10, +3.87)
+
+
+--- Lint Attempt 3 ---
+************* Module generated_code
+generated_code.py:67:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 9.35/10 (previous run: 9.35/10, +0.00)
+
+
+--- Lint Attempt 1 ---
+************* Module generated_code
+generated_code.py:34:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:8:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:9:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:14:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:19:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:25:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:29:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 6.67/10 (previous run: 9.35/10, -2.69)
+
+
+--- Lint Attempt 2 ---
+************* Module generated_code
+generated_code.py:43:0: C0305: Trailing newlines (trailing-newlines)
+generated_code.py:9:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:15:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:16:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:21:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:26:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:32:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:36:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.04/10 (previous run: 6.67/10, +0.37)
+
+
+--- Lint Attempt 3 ---
+************* Module generated_code
+generated_code.py:43:0: C0305: Trailing newlines (trailing-newlines)
+generated_code.py:9:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:15:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:16:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:21:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:26:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:32:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:36:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.04/10 (previous run: 7.04/10, +0.00)
+
+
+--- Lint Attempt 1 ---
+************* Module generated_code
+generated_code.py:14:0: C0301: Line too long (103/100) (line-too-long)
+generated_code.py:53:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:18:0: C0413: Import "import unittest" should be placed at the top of the module (wrong-import-position)
+generated_code.py:20:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:22:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:25:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:28:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:31:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:34:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:37:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:40:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:43:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:46:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:49:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 5.68/10 (previous run: 7.04/10, -1.36)
+
+
+--- Lint Attempt 2 ---
+************* Module generated_code
+generated_code.py:32:0: C0301: Line too long (103/100) (line-too-long)
+generated_code.py:82:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:36:0: C0413: Import "import unittest" should be placed at the top of the module (wrong-import-position)
+
+------------------------------------------------------------------
+Your code has been rated at 9.19/10 (previous run: 5.68/10, +3.51)
+
+
+--- Lint Attempt 3 ---
+************* Module generated_code
+generated_code.py:34:0: C0301: Line too long (103/100) (line-too-long)
+generated_code.py:82:0: C0304: Final newline missing (missing-final-newline)
+
+------------------------------------------------------------------
+Your code has been rated at 9.46/10 (previous run: 9.19/10, +0.27)
+
+
+--- Lint Attempt 1 ---
+************* Module generated_code
+generated_code.py:11:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:14:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:43:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:8:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:9:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:12:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:15:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:19:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:22:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:25:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:29:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:33:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:36:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:37:29: W0612: Unused variable 'a' (unused-variable)
+generated_code.py:37:36: W0612: Unused variable 'b' (unused-variable)
+generated_code.py:39:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 4.19/10 (previous run: 9.46/10, -5.27)
+
+
+--- Lint Attempt 2 ---
+************* Module generated_code
+generated_code.py:70:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:62:29: W0612: Unused variable 'a' (unused-variable)
+generated_code.py:62:36: W0612: Unused variable 'b' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 9.03/10 (previous run: 4.19/10, +4.84)
+
+
+--- Lint Attempt 3 ---
+************* Module generated_code
+generated_code.py:70:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:62:29: W0612: Unused variable 'a' (unused-variable)
+generated_code.py:62:38: W0612: Unused variable 'b' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 9.03/10 (previous run: 9.03/10, +0.00)
+
+
+--- Lint Attempt 1 ---
+************* Module generated_code
+generated_code.py:15:0: C0301: Line too long (103/100) (line-too-long)
+generated_code.py:24:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:27:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:30:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:34:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:37:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:40:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:43:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:47:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:51:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:57:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:1:0: C0103: Function name "isMatch" doesn't conform to snake_case naming style (invalid-name)
+generated_code.py:19:0: C0413: Import "import unittest" should be placed at the top of the module (wrong-import-position)
+generated_code.py:21:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:22:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:25:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:28:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:31:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:35:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:38:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:41:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:44:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:48:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:52:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 3.81/10 (previous run: 9.03/10, -5.22)
+
+
+--- Lint Attempt 2 ---
+************* Module generated_code
+generated_code.py:30:45: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:43:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:47:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:51:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:56:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:60:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:64:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:68:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:73:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:78:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:6:0: C0103: Function name "isMatch" doesn't conform to snake_case naming style (invalid-name)
+generated_code.py:35:0: C0413: Import "import unittest" should be placed at the top of the module (wrong-import-position)
+
+------------------------------------------------------------------
+Your code has been rated at 7.14/10 (previous run: 3.81/10, +3.33)
+
+
+--- Lint Attempt 3 ---
+************* Module generated_code
+generated_code.py:43:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:47:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:51:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:56:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:60:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:64:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:68:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:73:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:78:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:8:0: C0103: Function name "isMatch" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 7.62/10 (previous run: 7.14/10, +0.48)
+
+
+--- Lint Attempt 1 ---
+************* Module generated_code
+generated_code.py:11:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:14:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:17:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:20:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:23:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:26:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:29:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:32:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:35:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:40:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:8:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:9:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:12:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:15:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:18:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:21:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:24:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:27:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:30:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:33:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:36:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 1.79/10 (previous run: 7.62/10, -5.83)
+
+
+--- Lint Attempt 2 ---
+************* Module generated_code
+generated_code.py:21:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:25:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:29:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:33:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:37:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:41:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:45:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:49:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:53:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:57:0: C0303: Trailing whitespace (trailing-whitespace)
+
+------------------------------------------------------------------
+Your code has been rated at 6.43/10 (previous run: 1.79/10, +4.64)
+
+
+--- Lint Attempt 3 ---
+************* Module generated_code
+generated_code.py:21:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:25:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:29:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:33:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:37:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:41:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:45:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:49:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:53:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:57:0: C0303: Trailing whitespace (trailing-whitespace)
+
+------------------------------------------------------------------
+Your code has been rated at 6.43/10 (previous run: 6.43/10, +0.00)
+
+
+--- Lint Attempt 1 ---
+************* Module generated_code
+generated_code.py:14:0: C0301: Line too long (103/100) (line-too-long)
+generated_code.py:48:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:18:0: C0413: Import "import unittest" should be placed at the top of the module (wrong-import-position)
+generated_code.py:20:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:21:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:24:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:29:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:35:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:41:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.11/10 (previous run: 6.43/10, +0.68)
+
+
+--- Lint Attempt 2 ---
+************* Module generated_code
+generated_code.py:28:43: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:29:45: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:30:53: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:40:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:35:0: C0413: Import "import unittest" should be placed at the top of the module (wrong-import-position)
+
+------------------------------------------------------------------
+Your code has been rated at 8.68/10 (previous run: 7.11/10, +1.58)
+
+
+--- Lint Attempt 3 ---
+************* Module generated_code
+generated_code.py:30:43: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:31:45: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:32:53: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:39:0: C0303: Trailing whitespace (trailing-whitespace)
+
+------------------------------------------------------------------
+Your code has been rated at 8.95/10 (previous run: 8.68/10, +0.26)
+
+
+--- Lint Attempt 1 ---
+************* Module generated_code
+generated_code.py:12:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:33:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:44:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:8:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:10:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:13:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:16:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:20:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:23:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:28:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:31:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:34:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:37:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:40:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 4.84/10 (previous run: 8.95/10, -4.11)
+
+
+--- Lint Attempt 2 ---
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 4.84/10, +5.16)
+
