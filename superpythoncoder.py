@@ -3,6 +3,11 @@ import subprocess
 import random
 import time
 from openai import OpenAI
+from colorama import Fore, Style, init
+from tqdm import tqdm
+
+# Initialize colorama
+init(autoreset=True)
 
 # Initialize OpenAI API client
 api_key = os.getenv("OPENAI_API_KEY")
@@ -10,6 +15,7 @@ client = OpenAI(api_key=api_key)
 
 # Number of retries for fixing errors
 MAX_RETRIES = 5
+LINT_RETRIES = 3
 
 
 def add_noise_to_code(code):
@@ -23,22 +29,43 @@ def add_noise_to_code(code):
 def time_execution(file_path):
     """Run the generated code and time its execution."""
     start_time = time.perf_counter()
-    subprocess.run(["python", file_path], check=True)
+    subprocess.run(["python", os.path.abspath(file_path)], check=True)
     end_time = time.perf_counter()
     return (end_time - start_time) * 1000  # Convert to milliseconds
+
+
+def run_lint_check(file_path):
+    """Run pylint on the file and return its output."""
+    try:
+        result = subprocess.run(
+            ["pylint", os.path.abspath(file_path)],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+        )
+        return result.stdout, result.returncode
+    except FileNotFoundError:
+        print(Fore.RED + "Error: pylint is not installed or not found in PATH.")
+        return "", 1
+
+
+def save_lint_errors(lint_output, attempt):
+    """Save lint errors to a log file."""
+    with open("lint_errors.log", "a") as log_file:
+        log_file.write(f"\n--- Lint Attempt {attempt} ---\n")
+        log_file.write(lint_output)
 
 
 def super_python_coder():
     # List of program ideas
     program_list = [
         "Write a Python program to find the greatest common divisor (GCD) of two numbers using the Euclidean algorithm, with unit tests to validate the solution. Include at least 10 unit tests to validate the algorithm with various edge cases and scenarios. Only return the raw Python code, without any explanations or formatting syntax.",
-        "Write a Python program to implement binary search on a sorted list of numbers, including unit tests for edge cases. Include at least 10 unit tests to validate the algorithm with various edge cases and scenarios. Only return the raw Python code, without any explanations or formatting syntax.",
         "Write a Python program to solve the 'Regular Expression Matching' problem, where you implement a function to determine if a string matches a given pattern containing '.' and '*' as wildcards. Include at least 10 unit tests to validate the algorithm with various edge cases and scenarios. Only return the raw Python code, without any explanations or formatting syntax."
     ]
 
-    print("I’m Super Python Coder. Tell me, which program would you like me to code for you?")
-    print("If you don't have an idea, just press enter and I will choose a random program to code.")
-    user_input = input("\nEnter your program idea: ").strip()
+    print(Fore.CYAN + "I’m Super Python Coder. Tell me, which program would you like me to code for you?")
+    print(Fore.CYAN + "If you don't have an idea, just press enter and I will choose a random program to code.")
+    user_input = input(Fore.GREEN + "\nEnter your program idea: ").strip()
 
     if user_input:
         selected_prompt = (
@@ -49,7 +76,7 @@ def super_python_coder():
     else:
         selected_prompt = random.choice(program_list)
 
-    print("\nSelected prompt:")
+    print(Fore.MAGENTA + "\nSelected prompt:")
     print(selected_prompt)
 
     errors = ""
@@ -75,62 +102,72 @@ def super_python_coder():
             with open(file_path, "w") as file:
                 file.write(output_code)
 
-            print(f"\nGenerated code saved to {os.path.abspath(file_path)}.")
-
-            # Check if file exists
             if not os.path.exists(file_path):
                 raise FileNotFoundError(f"File '{file_path}' was not created.")
+            print(Fore.GREEN + f"\nGenerated code saved to: {os.path.abspath(file_path)}")
 
             # Run and time the code
-            print("\nRunning the generated code...")
+            print(Fore.MAGENTA + "\nRunning the generated code...")
             before_time = time_execution(file_path)
-            print(f"\nCode ran successfully in {before_time:.2f} milliseconds.")
+            print(Fore.GREEN + f"\nCode ran successfully in {before_time:.2f} milliseconds.")
 
-            # Request optimized code
-            print("\nRequesting optimized code...")
-            optimization_prompt = (
-                f"Optimize the following code for performance while keeping the same unit tests:\n\n{output_code}\n\n"
-                + "Only return the raw Python code, without any explanations or formatting syntax."
-            )
-            optimized_completion = client.chat.completions.create(
-                model="gpt-4o-mini",
-                messages=[{"role": "user", "content": optimization_prompt}]
-            )
-            optimized_code = optimized_completion.choices[0].message.content
+            # Perform lint checks and fix warnings/errors
+            for lint_attempt in tqdm(range(1, LINT_RETRIES + 1), desc="Lint Check Progress", ncols=75):
+                lint_output, lint_status = run_lint_check(file_path)
+                save_lint_errors(lint_output, lint_attempt)  # Save lint output to log
 
-            # Save the optimized code to the same file
-            print("\nRunning the optimized code...")
-            with open(file_path, "w") as file:
-                file.write(optimized_code)
+                if lint_status == 0:
+                    print(Fore.GREEN + "\nAmazing. No lint errors/warnings.")
+                    break
+                else:
+                    print(Fore.RED + f"\nLint attempt {lint_attempt}: Lint issues detected. Fixing...")
+                    print(Fore.RED + lint_output)
+                    lint_fix_prompt = (f"The following Python code has lint warnings/errors. Fix all issues to improve its pylint score to 10/10. "
+                    f"Specifically, ensure the following:\n"
+                    f"- Add a module-level docstring at the top of the file describing its purpose.\n"
+                    f"- Add a docstring for every function, describing its purpose, parameters, and return values.\n"
+                    f"- Ensure all imports are at the top of the file, and follow PEP 8 standards.\n"
+                    f"- Remove any trailing blank lines or add a single newline at the end of the file.\n"
+                    f"- Ensure no line exceeds 100 characters in length. Split long lines appropriately.\n"
+                    f"- Add exactly one newline at the end of the file.\n"
+                    f"- Remove all trailing whitespace from the code, ensuring no line ends with unnecessary spaces or tabs.\n\n"
+                    f"{output_code}\n\n"
+                    "Only return the raw Python code, without any explanations or formatting syntax."
+)
+                    lint_completion = client.chat.completions.create(
+                        model="gpt-4o-mini",
+                        messages=[{"role": "user", "content": lint_fix_prompt}]
+                    )
+                    output_code = lint_completion.choices[0].message.content
+                    cleaned_lines = [line.rstrip() for line in output_code.splitlines()]  # Strip trailing whitespace from each line
+                    cleaned_code = "\n".join(cleaned_lines)
+                    with open(file_path, "w") as file:
+                        file.write(cleaned_code + "\n")
 
-            after_time = time_execution(file_path)
+            if lint_status != 0:
+                print(Fore.RED + "\nThere are still lint errors/warnings after 3 attempts.")
+                print(Fore.LIGHTBLUE_EX + "Please review 'lint_errors.log' for details.")
+                return
 
-            # Compare timing results
-            if after_time < before_time:
-                print(f"\nCode running time optimized! It now runs in {after_time:.2f} milliseconds, while before it was {before_time:.2f} milliseconds.")
-                print("The optimized code has replaced the original in 'generated_code.py'.")
-            else:
-                print(f"\nNo significant optimization. Optimized code runs in {after_time:.2f} milliseconds, while the original code ran in {before_time:.2f} milliseconds.")
-                print("The optimized code has replaced the original in 'generated_code.py' for consistency.")
-
+            print(Fore.GREEN + "Lint fixing process completed successfully!")
             break
 
         except subprocess.CalledProcessError as e:
             errors = e.stderr.strip() if e.stderr else str(e)
-            print(f"\nError running generated code! Error: {errors}")
+            print(Fore.RED + f"\nError running generated code! Error: {errors}")
             if attempt < MAX_RETRIES:
-                print("Trying again...")
+                print(Fore.CYAN + "Trying again...")
             else:
-                print("Code generation FAILED.")
+                print(Fore.RED + "Code generation FAILED.")
                 return
 
         except Exception as e:
             errors = str(e)
-            print(f"\nAn unexpected error occurred: {errors}")
+            print(Fore.RED + f"\nAn unexpected error occurred: {errors}")
             if attempt < MAX_RETRIES:
-                print("Trying again...")
+                print(Fore.CYAN + "Trying again...")
             else:
-                print("Code generation FAILED.")
+                print(Fore.RED + "Code generation FAILED.")
                 return
 
 
