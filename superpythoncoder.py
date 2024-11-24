@@ -154,16 +154,21 @@ def super_python_coder():
                     lint_fix_prompt = (f"The following Python code has lint warnings/errors. Fix all issues to improve its pylint score to 10/10. "
                     f"Specifically, ensure the following:\n"
                     f"- Add a module-level docstring at the top of the file describing its purpose.\n"
-                    f"- Add a docstring for every function, describing its purpose, parameters, and return values.\n"
+                    f"- Add a docstring for every function or method, describing its purpose, parameters, and return values.\n"
                     f"- Add a docstring for every class, describing its purpose and role in the code.\n"
                     f"- Ensure all imports are at the top of the file, and remove any unused imports.\n"
                     f"- Remove any trailing blank lines or add a single newline at the end of the file.\n"
                     f"- Ensure no line exceeds 100 characters in length. Split long lines appropriately.\n"
                     f"- Add exactly one newline at the end of the file.\n"
-                    f"- Remove all trailing whitespace from the code, ensuring no line ends with unnecessary spaces or tabs.\n\n"
+                    f"- Remove all trailing whitespace from the code, ensuring no line ends with unnecessary spaces or tabs.\n"
+                    f"- Replace unnecessary parentheses after the 'not' keyword with cleaner syntax.\n"
+                    f"- Replace unnecessary 'elif' after 'raise' with a direct 'if' statement or proper refactoring.\n"
+                    f"- Merge multiple comparisons into a single comparison using 'in' when applicable, e.g., 'x == 1 or x == 2' becomes 'x in (1, 2)'.\n"
+                    f"- Ensure every function or method has a proper docstring describing its purpose, input parameters, and return values.\n\n"
                     f"{output_code}\n\n"
                     "Only return the raw Python code, without any explanations or formatting syntax."
 )
+
                     lint_completion = client.chat.completions.create(
                         model="gpt-4o-mini",
                         messages=[{"role": "user", "content": lint_fix_prompt}]
