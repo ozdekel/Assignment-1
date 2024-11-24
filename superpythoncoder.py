@@ -106,10 +106,39 @@ def super_python_coder():
                 raise FileNotFoundError(f"File '{file_path}' was not created.")
             print(Fore.GREEN + f"\nGenerated code saved to: {os.path.abspath(file_path)}")
 
-            # Run and time the code
-            print(Fore.MAGENTA + "\nRunning the generated code...")
-            before_time = time_execution(file_path)
-            print(Fore.GREEN + f"\nCode ran successfully in {before_time:.2f} milliseconds.")
+            # Measure and optimize the code for runtime
+            print(Fore.MAGENTA + "\nOptimizing the code for runtime efficiency...")
+
+            # Measure original runtime
+            before_optimization_time = time_execution(file_path)
+            print(Fore.CYAN + f"\nOriginal runtime: {before_optimization_time:.2f} milliseconds.")
+
+            # Prompt for optimization
+            optimize_prompt = (f"The following Python code works correctly, but I want it to be optimized for runtime efficiency. "
+                               f"Please make it faster while keeping it functionally correct and adhering to Python best practices.\n\n"
+                               f"{output_code}\n\n"
+                               "Only return the raw Python code, without any explanations or formatting syntax.")
+
+            optimization_completion = client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[{"role": "user", "content": optimize_prompt}]
+            )
+            optimized_code = optimization_completion.choices[0].message.content
+
+            # Save the optimized code
+            optimized_code_cleaned = "\n".join([line.rstrip() for line in optimized_code.splitlines()])  # Clean trailing whitespace
+            with open(file_path, "w") as file:
+                file.write(optimized_code_cleaned + "\n")  # Add exactly one newline at the end
+
+            # Measure optimized runtime
+            after_optimization_time = time_execution(file_path)
+            print(Fore.CYAN + f"\nOptimized runtime: {after_optimization_time:.2f} milliseconds.")
+
+            # Compare runtimes
+            if after_optimization_time < before_optimization_time:
+                print(Fore.GREEN + f"\nCode optimization successful! Runtime improved from {before_optimization_time:.2f} to {after_optimization_time:.2f} milliseconds.")
+            else:
+                print(Fore.RED + f"\nCode optimization failed to improve runtime. Proceeding with lint fixes.")
 
             # Perform lint checks and fix warnings/errors
             for lint_attempt in tqdm(range(1, LINT_RETRIES + 1), desc="Lint Check Progress", ncols=75):
@@ -126,7 +155,8 @@ def super_python_coder():
                     f"Specifically, ensure the following:\n"
                     f"- Add a module-level docstring at the top of the file describing its purpose.\n"
                     f"- Add a docstring for every function, describing its purpose, parameters, and return values.\n"
-                    f"- Ensure all imports are at the top of the file, and follow PEP 8 standards.\n"
+                    f"- Add a docstring for every class, describing its purpose and role in the code.\n"
+                    f"- Ensure all imports are at the top of the file, and remove any unused imports.\n"
                     f"- Remove any trailing blank lines or add a single newline at the end of the file.\n"
                     f"- Ensure no line exceeds 100 characters in length. Split long lines appropriately.\n"
                     f"- Add exactly one newline at the end of the file.\n"

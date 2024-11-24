@@ -728,3 +728,176 @@ Your code has been rated at 4.84/10 (previous run: 8.95/10, -4.11)
 -------------------------------------------------------------------
 Your code has been rated at 10.00/10 (previous run: 4.84/10, +5.16)
 
+
+--- Lint Attempt 1 ---
+************* Module generated_code
+generated_code.py:7:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:10:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:13:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:16:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:19:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:22:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:25:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:28:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:31:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:34:0: C0303: Trailing whitespace (trailing-whitespace)
+generated_code.py:39:0: C0304: Final newline missing (missing-final-newline)
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:4:0: C0413: Import "import unittest" should be placed at the top of the module (wrong-import-position)
+generated_code.py:6:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:8:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:11:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:14:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:17:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:20:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:23:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:26:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:29:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:32:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:35:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+-------------------------------------------------------------------
+Your code has been rated at 0.38/10 (previous run: 10.00/10, -9.62)
+
+
+--- Lint Attempt 2 ---
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 0.38/10, +9.62)
+
+
+--- Lint Attempt 1 ---
+************* Module generated_code
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:7:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:8:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:11:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:14:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:17:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:20:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:23:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:26:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:29:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:32:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:35:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:1:0: W0611: Unused import math (unused-import)
+
+-------------------------------------------------------------------
+Your code has been rated at 4.81/10 (previous run: 10.00/10, -5.19)
+
+
+--- Lint Attempt 2 ---
+************* Module generated_code
+generated_code.py:5:0: W0611: Unused import math (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 9.66/10 (previous run: 4.81/10, +4.84)
+
+
+--- Lint Attempt 3 ---
+************* Module generated_code
+generated_code.py:5:0: W0611: Unused import math (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 9.66/10 (previous run: 9.66/10, +0.00)
+
+
+--- Lint Attempt 1 ---
+************* Module generated_code
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:4:14: C0321: More than one statement on a single line (multiple-statements)
+generated_code.py:5:14: C0321: More than one statement on a single line (multiple-statements)
+generated_code.py:10:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:11:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:14:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:17:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:20:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:25:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:28:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:31:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:35:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:38:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:41:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 5.71/10 (previous run: 9.66/10, -3.94)
+
+
+--- Lint Attempt 2 ---
+************* Module generated_code
+generated_code.py:22:0: C0115: Missing class docstring (missing-class-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 9.68/10 (previous run: 5.71/10, +3.96)
+
+
+--- Lint Attempt 3 ---
+************* Module generated_code
+generated_code.py:22:0: C0115: Missing class docstring (missing-class-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 9.68/10 (previous run: 9.68/10, +0.00)
+
+
+--- Lint Attempt 1 ---
+************* Module generated_code
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:9:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:10:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:13:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:16:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:20:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:23:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:26:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:29:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:32:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:35:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:38:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 5.67/10 (previous run: 9.68/10, -4.01)
+
+
+--- Lint Attempt 2 ---
+************* Module generated_code
+generated_code.py:70:0: C0305: Trailing newlines (trailing-newlines)
+
+------------------------------------------------------------------
+Your code has been rated at 9.66/10 (previous run: 5.67/10, +3.99)
+
+
+--- Lint Attempt 3 ---
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.66/10, +0.34)
+
+
+--- Lint Attempt 1 ---
+************* Module generated_code
+generated_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+generated_code.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:8:0: C0115: Missing class docstring (missing-class-docstring)
+generated_code.py:9:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:12:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:15:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:18:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:21:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:24:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:27:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:30:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:33:4: C0116: Missing function or method docstring (missing-function-docstring)
+generated_code.py:36:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+-------------------------------------------------------------------
+Your code has been rated at 5.36/10 (previous run: 10.00/10, -4.64)
+
+
+--- Lint Attempt 2 ---
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 5.36/10, +4.64)
+
